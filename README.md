@@ -4,22 +4,20 @@
 * Objective of the research is to perform a analysis of the COVID-19 dataset. From the analysis we intend to gather research articles based on their subject (which is represented by the abstract).
 * This analysis is performed by clustering the sentence embeddings and optimizing them by using a Genetic Algorithm.
 
-### :cd: Dataset
-* COVID-19 Dataset :
+### :cd: Repository Structure
+* COVID-19 Dataset : https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge
+* The *Metrics* folder contains the Silhouette Coefficient and the DBindex for the k-means clustering.
+* The *Scripts* folder contains the scripts to convert the abstracts into embeddings.
+* The *Dataset* folder contains the abstracts represented by 14 different types of embeddings.
+* Run parallel_GA.ipynb and Kmeans_Using_Library.ipynb execute the Genetic algorithm and the Clustering of the data. 
 
-### :key: Run the Code
-* Use the sample video given and run Isolation.ipynb with it.
-* The output will be a black and white video, run Prediction.ipynb with it by changing the video path. 
-* Prediction.ipynb will yield a result in the form of an interpolation graph.
 
   
 ### :books: Libraries Used
 * Numpy
-* OpenCV
-* Mahotas
+* pyspark
+* nltk
+* sklearn
+* huggingface Transformers
 
-### :star: Output
-* Refer to results file attached.
 
-### ❓: Further Doubts
-* Refer to the project report attached for a detailed explanation on the idea and working.
