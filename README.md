@@ -18,7 +18,7 @@
 * sklearn
 * huggingface Transformers
 
-### :computer: Maintained and Created by:
+### :computer: Created and Maintained by:
 
 * Anirudh S (https://github.com/Anirudh-Sundar), BITS Pilani Hyd Campus
 * Karthik Suresh (https://github.com/karths8), BITS Pilani Hyd Campus
